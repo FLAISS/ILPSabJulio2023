@@ -1,0 +1,19 @@
+#Ejercicio 2. Calcular el área y perímetro de un círculo
+
+#ENTRADA DE DATOS.(Declarar o crear variables)
+#Constantes van en MAYUSCULAS. 
+
+PI = 3.1416
+radio= float(input("Ingresar radio: "))
+
+
+
+
+#PROCESOS. (Cálculos u Operaciones matemáticas y/o Lógicas)
+área = 2 * PI * radio
+potencia1 = pow(radio,2)
+perimetro= PI*potencia1
+
+#SALIDA DE DATOS.
+print("El perímetro es =", round(perimetro,2))
+print("El área es =", round(área,2))

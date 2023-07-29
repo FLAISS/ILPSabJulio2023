@@ -1,0 +1,15 @@
+#Ejercicio 6. Pedir un número y decir si es par o impar.
+
+#ENTRADA DE DATOS. Declarar o crear variables
+
+número = int(input("Ingresar número: "))
+
+
+#PROCESOS.Cálculos u operaciones matemáticas y/o lógicas.
+módulo_residuo = número % 2
+
+if(módulo_residuo == 0):
+  print("El número ingresado es par")
+elif (módulo_residuo != 0):
+  print("El número ingresado es impar")
+

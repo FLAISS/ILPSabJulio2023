@@ -1,0 +1,16 @@
+#Ejercicio 1. Calcular el promedio de 3 calificaciones y decir si es aprobado o reprobado
+
+#ENTRADA DE DATOS
+#Declarar o crear variables
+calificación1= float(input("Ingresa calificación 1: "))
+calificación2= float(input("Ingresa calificación 2: "))
+calificación3= float(input("Ingresa calificación 3: "))
+
+
+#PROCESOS. (Cálculos u operaciones matemáticas y/o lógicas)
+suma = calificación1 + calificación2 + calificación3
+división = suma / 3
+
+
+#SALIDA DE DATOS.
+print("El promedio es =", round(división,2))

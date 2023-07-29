@@ -1,0 +1,20 @@
+#Ejercicio 4. Pedir la cantidad de grados y convertirlos en C, F y K
+
+#ENTRADAS DE DATOS. (Declarar o crear variables)
+grados = float(input("Ingresar grados: "))
+
+#PROCESOS. (Cálculos u operaciones matemáticas y/o lógicas)
+De_kelvin_a_celsius = grados - 273.15
+De_Farenheit_a_Celsius = (5*(grados - 32))/9
+De_celsius_a_kelvin = grados + 273.15
+De_kelvin_a_farenheit = ((9*(grados-273))/5)+32
+De_farenheit_a_kelvin = (5*(grados - 32)/9)+273.15
+De_celsius_a_Farenheit = ((9*grados) / 5) + 32
+
+#SALIDA DE DATOS.
+print(grados,"Kelvin = ", round(De_kelvin_a_celsius,2), "Celsius")
+print(grados, "Farenheit =", round(De_Farenheit_a_Celsius,2), "Celsius")
+print(grados, "Celsius =", round(De_celsius_a_kelvin,2), "Kelvin")
+print(grados, "Kelvin =", round(De_kelvin_a_farenheit,2), "Farenheit")
+print(grados, "Farenheit =", round(De_farenheit_a_kelvin,2), "Kelvin")
+print(grados, "Celsius =", round(De_celsius_a_Farenheit,2), "Farenheit")

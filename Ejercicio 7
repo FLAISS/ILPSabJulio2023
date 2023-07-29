@@ -1,0 +1,21 @@
+#Ejercicio 7. Pedir el nivel del agua en metros de una cisterna
+
+#ENTRADA DE DATOS
+# Declarar o crear variables.
+Nivel_de_agua = float( input ("Ingresa nivel de agua: "))
+
+#PROCESOS. Cálculos de operaciones matemáticas y/o lógicas.
+if(Nivel_de_agua > 6):
+  print("Desbordamiento de agua en cisterna")
+elif(Nivel_de_agua == 6):
+  print("Apagar bomba")
+elif(4 < Nivel_de_agua < 6):
+  print("Desacelerar bomba")
+elif(4 >= Nivel_de_agua >= 2):
+  print("Bomba trabajando")
+elif(2>Nivel_de_agua>0):
+  print("Acelerar bomba de agua")
+elif(Nivel_de_agua == 0):
+  print("Encender bomba de agua")
+elif(Nivel_de_agua<0):
+  print("Fuga en la cisterna")

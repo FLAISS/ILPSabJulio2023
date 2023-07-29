@@ -1,0 +1,21 @@
+#Ejemplo 5. Obtener valores para a, b y c. Calcular la fórmula general
+
+import math  
+
+#ENTRADAS DE DATOS. (Declarar o crear variables)
+valor_de_a = float(input("Ingresar valor de a: "))
+valor_de_b = float(input("Ingresar valor de b: "))
+valor_de_c = float(input("Ingresar valor de c: "))
+
+
+#PROCESOS. (Cálculos u operaciones matemáticas y/o lógicas)
+X1 = (-valor_de_b - pow(((valor_de_b ** 2)- (4*valor_de_a*valor_de_c)),1/2))/(2*(valor_de_a))
+
+X2 =(-valor_de_b + pow(((valor_de_b ** 2)- (4*valor_de_a*valor_de_c)),1/2))/(2*(valor_de_a))
+
+#SALIDA DE DATOS.
+print("El valor de X1 = ",X1)
+print("El valor de X2 = ",X2)
+
+
+

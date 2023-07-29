@@ -1,0 +1,11 @@
+#Ejercicio 3. Determinar la edad de una persona conociendo el año actual y el año de nacimiento.
+
+#ENTRADAS DE DATOS. (Declarar o crear variables)
+año_de_nacimiento = int(input("Ingresa año de nacimiento: "))
+año_actual = int(input("Ingresa año actual: "))
+
+#PROCESOS. (Cálculos u operaciones matemáticas y/o lógicas)
+Edad = año_actual - año_de_nacimiento
+
+#SALIDA DE DATOS. 
+print("La edad es =", Edad)
